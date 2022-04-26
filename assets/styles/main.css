@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.bank-calculation{
+    margin-top: 50px;
+}
+.title {
+    font-weight: 700;
+}
+.login-form {
+    background: #fcabab;
+    border-radius: 20px;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.user-form{
+    width: 500px;
+    margin: 0 auto;
+ 
+}
+
+.submit-btn {
+    padding: 5px 30px;
+    background: #6c01b4;
+}
