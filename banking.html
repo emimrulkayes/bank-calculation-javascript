@@ -20,21 +20,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="deposit bg-success text-center rounded-3 py-4 text-light">
+                        <div class="deposit-box bg-success text-center rounded-3 py-4 text-light">
                             <h3>Deposit</h3>
-                            <h4>$00</h4>
+                            <h4>$<span id="deposit-total">00</span></h4>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="deposit bg-warning text-center rounded-3 py-4 text-light">
+                        <div class="withdraw-box bg-warning text-center rounded-3 py-4 text-light">
                             <h3>Withdraw</h3>
-                            <h4>$00</h4>
+                            <h4>$<span id="withdraw-total">00</span> </h4>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4">
-                        <div class="deposit bg-info text-center rounded-3 py-4 text-light">
+                        <div class="balance-total-box bg-info text-center rounded-3 py-4 text-light">
                             <h3>Balance</h3>
-                            <h4>$1200</h4>
+                            <h4>$<span id="total-balance">1200</span> </h4>
                         </div>
                     </div>
                 </div>
@@ -42,18 +42,17 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4"> 
                         <div class="deposit-balance bg-secondary p-4 rounded-3 mt-4 text-light">
                             <h3>Please Deposit</h3>
-                            <input class="py-1 px-3" type="text" name="number" id="input-deposit-amount" required> <br> <br>
+                            <input id="input-deposit-amount" class="py-1 px-3 rounded-3 border-0" type="text" name="number" required> <br> <br>
                             <button id="deposit-btn" type="submit" class="deposit-btn btn btn-warning px-4">Deposit</button>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4"> 
                         <div class="deposit-balance bg-secondary p-4 rounded-3 mt-4 text-light">
                             <h3>Please Withdraw</h3>
-                            <input class="py-1 px-3" type="text" name="number" id="input-withdraw-amount" required> <br> <br>
+                            <input id="input-withdraw-amount" class="py-1 px-3 rounded-3 border-0" type="text" name="number" required> <br> <br>
                             <button id="withdraw-btn" type="submit" class="withdraw-btn btn btn-success px-4">Withdraw</button>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
@@ -70,5 +69,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/banking.js"></script>
 </body>
 </html>
